@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- aqui van datos y meta datos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilo1.css">
+
+    <title>Proyecto2 - Flexbox</title>
+</head>
+
+<body>
+
+    <!-- 
+            <h6>
+                58. Recursos a utilizar
+            </h6>
+        -->
+
+
+    <!-- Header -->
+    <header class="header">
+        <!-- barra de menu -->
+        <nav class="nav__MenuNavegacion contenedor">
+
+            <div class="nav__logo">
+                <img src="./img/redux.svg" alt="redux" class="">
+            </div>
+
+            <div class="nav__enlace">
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+
+                <li>
+                    <a href="#">Acerca de</a>
+                </li>
+            </div>
+
+        </nav>
+
+
+        <!-- banner -->
+        <div class="hero contenedor">
+            <div class="hero__textos">
+                <h1 class="hero__titulo">
+                    Construimos el mejor sitio web para ti
+                </h1>
+
+                <p class="hero__subtitulo">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+
+    </header>
+
+
+
+    <!-- main -->
+    <main>
+
+        <!-- nosotros -->
+        <section class="contenedor seccion">
+            <h2 class="seccion__titulo">
+                Sobre nosotros
+            </h2>
+
+            <div class="seccion__SobreNosotros">
+
+                <img src="./img/ilustracion1.svg" alt="ilustracion1" title="ilustracion1" class="ilustracion">
+
+
+                <div class="relatos">
+                    <div class="relato">
+                        <h3 class="relato__titulo">
+                            Nombre relato 1
+                        </h3>
+
+                        <p class="relato__parrafo">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dignissimos repudiandae rem
+                            dolore
+                            velit aliquid minima quidem nostrum cum officiis!
+                        </p>
+                    </div>
+
+                    <div class="relato">
+                        <h3 class="relato__titulo">
+                            Nombre relato 2
+                        </h3>
+
+                        <p class="relato__parrafo">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dignissimos
+                            repudiandae rem dolore
+                            velit aliquid minima quidem nostrum cum officiis!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- portafolio -->
+        <section class="portafolio">
+
+            <div class="contenedor">
+                <h2 class="seccion__titulo">
+                    Portafolio
+                </h2>
+
+                <div class="contenedor__portafolioimagenes">
+                    <div class="imagenContenedor">
+                        <img src="./img/uno.jpg" alt="imagen1" title="uno">
+                    </div>
+
+                    <div class="imagenContenedor">
+                        <img src="./img/dos.jpg" alt="imagen1" title="dos">
+                    </div>
+
+                    <div class="imagenContenedor">
+                        <img src="./img/tres.jpg" alt="imagen1" title="tres">
+                    </div>
+
+                    <div class="imagenContenedor">
+                        <img src="./img/cuatro.jpg" alt="imagen1" title="cuatro">
+                    </div>
+
+                    <div class="imagenContenedor">
+                        <img src="./img/cinco.jpg" alt="imagen1" title="cinco">
+                    </div>
+
+                    <div class="imagenContenedor">
+                        <img src="./img/seis.jpg" alt="imagen1" title="seis">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Precio -->
+        <section class="contenedor">
+            <h2 class="seccion__titulo">
+                Elige tu precio
+            </h2>
+
+
+            <div class="seccion__tablaPrecios">
+                <div class="precio">
+                    <h3 class="precio__titulo">
+                        Basic
+                    </h3>
+
+                    <p class="precio__parrafo">
+                        $37
+                    </p>
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 1
+                    </h2>
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 2
+                    </h2>
+
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 3
+                    </h2>
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 4
+                    </h2>
+
+                    <a href="#" class="precio_cuenta">Buy Now</a>
+                </div>
+
+                <div class="precio active">
+                    <h3 class="precio__titulo">
+                        Ultimate
+                    </h3>
+
+                    <p class="precio__parrafo">
+                        $97
+                    </p>
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 1
+                    </h2>
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 2
+                    </h2>
+
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 3
+                    </h2>
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 4
+                    </h2>
+
+                    <a href="#" class="precio_cuenta">Buy Now</a>
+                </div>
+
+                <div class="precio">
+                    <h3 class="precio__titulo">
+                        Premium
+                    </h3>
+
+                    <p class="precio__parrafo">
+                        $137
+                    </p>
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 1
+                    </h2>
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 2
+                    </h2>
+
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 3
+                    </h2>
+
+                    <h2 class="precio__beneficio">
+                        Beneficio 4
+                    </h2>
+
+                    <a href="#" class="precio_cuenta">Buy Now</a>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- footer-->
+    <footer>
+
+        <div class="contenedor">
+            <h2 class="seccion__titulo">
+                Contactanos
+            </h2>
+
+            <form action="" class="formulario">
+                <input type="text" name="" id="" placeholder="Nombre" class="input">
+                <input type="email" name="" id="" placeholder="Email" class="input">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="input"></textarea>
+                <input type="submit" value="Enviar" class="input submit">
+            </form>
+
+        </div>
+
+
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 271.49,-50.00 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+                    style="stroke: none; fill: #ffffff;"></path>
+            </svg></div>
+
+    </footer>
+
+    <!-- 
+
+    
+    <footer>
+        <div class="contenedor">
+            <h2 class="contenedor__tituloSeccion">
+                Contact us
+            </h2>
+
+            <p class="contenedor__parrafoSeccion">
+                Lorem ipsum, dolor sit amet consectetur adipisicing.
+            </p>
+
+
+            <div class="contenedor__redesSociales">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+
+        </div>
+
+    </footer>
+  -->
+
+
+
+
+
+
+
+
+    <!-- script -->
+    <!-- Using Your Kit in a Project en fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
